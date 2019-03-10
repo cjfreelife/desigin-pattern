@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.cj.abstractfactory.IAbstarctFactory</OriginalElement>
+  <nodes>
+    <node x="735.9653846153847" y="145.5">org.cj.course.JavaCourse</node>
+    <node x="532.7115384615385" y="281.0">org.cj.abstractfactory.JavaAbstractFactory</node>
+    <node x="414.9653846153846" y="145.5">org.cj.course.PythonCourse</node>
+    <node x="426.0" y="0.0">org.cj.course.ICourse</node>
+    <node x="10.5" y="145.5">org.cj.video.PythonVideo</node>
+    <node x="576.9653846153847" y="145.5">org.cj.video.JavaVideo</node>
+    <node x="126.0" y="0.0">org.cj.video.IVideo</node>
+    <node x="194.9653846153846" y="134.0">org.cj.abstractfactory.IAbstarctFactory</node>
+    <node x="59.711538461538396" y="281.0">org.cj.abstractfactory.PythonAbstarctFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.cj.abstractfactory.JavaAbstractFactory" target="org.cj.video.IVideo">
+      <point x="-80.0" y="-38.5" />
+      <point x="552.7115384615385" y="241.0" />
+      <point x="184.4653846153846" y="241.0" />
+      <point x="184.4653846153846" y="94.0" />
+      <point x="195.5" y="94.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="org.cj.abstractfactory.JavaAbstractFactory" target="org.cj.course.ICourse">
+      <point x="79.99999999999997" y="-38.5" />
+      <point x="712.7115384615383" y="261.0" />
+      <point x="888.4653846153847" y="261.0" />
+      <point x="888.4653846153847" y="74.0" />
+      <point x="553.8" y="74.0" />
+      <point x="56.80000000000001" y="27.0" />
+    </edge>
+    <edge source="org.cj.abstractfactory.JavaAbstractFactory" target="org.cj.abstractfactory.IAbstarctFactory">
+      <point x="-40.0" y="-38.5" />
+      <point x="592.7115384615385" y="231.0" />
+      <point x="344.9653846153846" y="231.0" />
+      <point x="50.0" y="38.5" />
+    </edge>
+    <edge source="org.cj.abstractfactory.PythonAbstarctFactory" target="org.cj.video.PythonVideo">
+      <point x="-40.0" y="-38.5" />
+      <point x="119.7115384615384" y="251.0" />
+      <point x="80.0" y="251.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="org.cj.abstractfactory.JavaAbstractFactory" target="org.cj.video.JavaVideo">
+      <point x="0.0" y="-38.5" />
+      <point x="632.7115384615385" y="261.0" />
+      <point x="646.4653846153847" y="261.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="org.cj.video.JavaVideo" target="org.cj.video.IVideo">
+      <point x="0.0" y="-27.0" />
+      <point x="646.4653846153847" y="94.0" />
+      <point x="251.10000000000002" y="94.0" />
+      <point x="55.60000000000002" y="27.0" />
+    </edge>
+    <edge source="org.cj.course.PythonCourse" target="org.cj.course.ICourse">
+      <point x="0.0" y="-27.0" />
+      <point x="485.9653846153846" y="114.0" />
+      <point x="497.0" y="114.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="org.cj.abstractfactory.JavaAbstractFactory" target="org.cj.course.JavaCourse">
+      <point x="40.0" y="-38.5" />
+      <point x="672.7115384615383" y="251.0" />
+      <point x="806.9653846153847" y="251.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="org.cj.abstractfactory.IAbstarctFactory" target="org.cj.course.ICourse">
+      <point x="50.0" y="-38.5" />
+      <point x="344.9653846153846" y="114.0" />
+      <point x="468.6" y="114.0" />
+      <point x="-28.400000000000006" y="27.0" />
+    </edge>
+    <edge source="org.cj.abstractfactory.PythonAbstarctFactory" target="org.cj.course.ICourse">
+      <point x="0.0" y="-38.5" />
+      <point x="160.0" y="104.0" />
+      <point x="440.2" y="104.0" />
+      <point x="-56.80000000000001" y="27.0" />
+    </edge>
+    <edge source="org.cj.abstractfactory.IAbstarctFactory" target="org.cj.video.IVideo">
+      <point x="-50.0" y="-38.5" />
+      <point x="244.9653846153846" y="94.0" />
+      <point x="223.29999999999995" y="94.0" />
+      <point x="27.799999999999955" y="27.0" />
+    </edge>
+    <edge source="org.cj.abstractfactory.PythonAbstarctFactory" target="org.cj.course.PythonCourse">
+      <point x="80.0" y="-38.5" />
+      <point x="239.7115384615384" y="261.0" />
+      <point x="485.9653846153846" y="261.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="org.cj.video.PythonVideo" target="org.cj.video.IVideo">
+      <point x="0.0" y="-27.0" />
+      <point x="80.0" y="94.0" />
+      <point x="167.7" y="94.0" />
+      <point x="-27.80000000000001" y="27.0" />
+    </edge>
+    <edge source="org.cj.course.JavaCourse" target="org.cj.course.ICourse">
+      <point x="0.0" y="-27.0" />
+      <point x="806.9653846153847" y="84.0" />
+      <point x="525.4" y="84.0" />
+      <point x="28.400000000000006" y="27.0" />
+    </edge>
+    <edge source="org.cj.abstractfactory.PythonAbstarctFactory" target="org.cj.abstractfactory.IAbstarctFactory">
+      <point x="40.0" y="-38.5" />
+      <point x="199.7115384615384" y="251.0" />
+      <point x="244.9653846153846" y="251.0" />
+      <point x="-50.0" y="38.5" />
+    </edge>
+    <edge source="org.cj.abstractfactory.PythonAbstarctFactory" target="org.cj.video.IVideo">
+      <point x="-80.0" y="-38.5" />
+      <point x="79.7115384615384" y="261.0" />
+      <point x="0.0" y="261.0" />
+      <point x="0.0" y="84.0" />
+      <point x="139.89999999999998" y="84.0" />
+      <point x="-55.60000000000002" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="375.5" y="229.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

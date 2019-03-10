@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="71.67291666666665" y="208.0">org.cj.methodfactory.JavaFactory</node>
+    <node x="0.0" y="104.0">org.cj.course.JavaCourse</node>
+    <node x="163.0" y="104.0">org.cj.methodfactory.IMethonFactory</node>
+    <node x="322.0" y="104.0">org.cj.course.PythonCourse</node>
+    <node x="162.55520833333338" y="0.0">org.cj.course.ICourse</node>
+    <node x="319.4927083333333" y="208.0">org.cj.methodfactory.PythonFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.cj.course.PythonCourse" target="org.cj.course.ICourse">
+      <point x="0.0" y="-27.0" />
+      <point x="393.0" y="84.0" />
+      <point x="261.95520833333336" y="84.0" />
+      <point x="28.399999999999977" y="27.0" />
+    </edge>
+    <edge source="org.cj.methodfactory.JavaFactory" target="org.cj.methodfactory.IMethonFactory">
+      <point x="42.666666666666686" y="-27.0" />
+      <point x="178.33958333333334" y="183.0" />
+      <point x="197.75" y="183.0" />
+      <point x="-34.75" y="27.0" />
+    </edge>
+    <edge source="org.cj.methodfactory.JavaFactory" target="org.cj.course.JavaCourse">
+      <point x="-42.66666666666663" y="-27.0" />
+      <point x="93.00625000000002" y="183.0" />
+      <point x="71.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="org.cj.methodfactory.PythonFactory" target="org.cj.methodfactory.IMethonFactory">
+      <point x="-43.0" y="-27.0" />
+      <point x="340.9927083333333" y="183.0" />
+      <point x="267.25" y="183.0" />
+      <point x="34.75000000000003" y="27.0" />
+    </edge>
+    <edge source="org.cj.methodfactory.PythonFactory" target="org.cj.course.PythonCourse">
+      <point x="0.0" y="-27.0" />
+      <point x="383.9927083333333" y="183.0" />
+      <point x="393.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="org.cj.methodfactory.PythonFactory" target="org.cj.course.ICourse">
+      <point x="43.0" y="-27.0" />
+      <point x="426.9927083333333" y="183.0" />
+      <point x="474.5" y="183.0" />
+      <point x="474.5" y="74.0" />
+      <point x="290.3552083333334" y="74.0" />
+      <point x="56.80000000000001" y="27.0" />
+    </edge>
+    <edge source="org.cj.methodfactory.JavaFactory" target="org.cj.course.ICourse">
+      <point x="0.0" y="-27.0" />
+      <point x="135.67291666666665" y="183.0" />
+      <point x="152.5" y="183.0" />
+      <point x="152.5" y="84.0" />
+      <point x="205.15520833333335" y="84.0" />
+      <point x="-28.400000000000006" y="27.0" />
+    </edge>
+    <edge source="org.cj.course.JavaCourse" target="org.cj.course.ICourse">
+      <point x="0.0" y="-27.0" />
+      <point x="71.0" y="74.0" />
+      <point x="176.75520833333337" y="74.0" />
+      <point x="-56.80000000000001" y="27.0" />
+    </edge>
+    <edge source="org.cj.methodfactory.IMethonFactory" target="org.cj.course.ICourse">
+      <point x="2.8421709430404007E-14" y="-27.0" />
+      <point x="232.5" y="84.0" />
+      <point x="233.55520833333338" y="84.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="286.5" y="32.5" />
+  <SelectedNodes>
+    <node>org.cj.methodfactory.JavaFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
