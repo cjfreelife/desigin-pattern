@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="delegate-pattern" />
         <module name="factorydesigin" />
+        <module name="strategy-pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="delegate-pattern" target="1.5" />
       <module name="factorydesigin" target="1.5" />
+      <module name="strategy-pattern" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
